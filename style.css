@@ -1,0 +1,203 @@
+  .btnadd{
+            width: 100%;
+           
+            background-color: green;
+            color: white;
+            border: none;
+            transition: 0.1s;
+        }
+        .btnadd:hover{
+            transform: scale(1.1);
+        }
+        .in1{
+            width: 90%;
+             margin-bottom: 10px;
+             border:none;
+             background-color: whitesmoke;
+             height: 30px;
+             border-radius: 10px;
+        }
+        select, .p1{
+            margin-bottom: 10px;
+            position: relative;
+            text-indent: ;
+            left: 20px;
+           
+        }
+
+        .add{
+            background-color: dodgerblue;
+            position: relative;
+            top: 15px;
+            width: 50%;
+            height: 430px;
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        }
+        .dashboard{
+            width: 100%;
+            background-color: dodgerblue;
+            color: white;
+        }
+     	.about{
+            border-radius: 10px;
+     		width: 95%;
+     		height: 234px;
+     		background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+     	}
+     	.user{
+
+     		font-size: 20px;
+     		color: white;
+     		text-indent: 20px;
+     		position: relative;
+     		top: 20px;
+     	}
+     	.profile{
+     		border-radius: 20px;
+     		width: 70%;
+     		height: 400px;
+     		background-color: dodgerblue;
+     	}
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #007bff; /* Bootstrap primary color or any color of your choice */
+            color: white;
+            padding: 10px 15px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000; /* Ensure the navbar is above other elements */
+        }
+        .navbar .navbar-brand {
+            color: white;
+        }
+        .sidebar {
+            height: calc(100vh - 50px); /* Adjust height to account for the navbar */
+            width: 250px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            top: 50px; /* Position below the navbar */
+            left: 0;
+            padding-top: 20px;
+            overflow-y: auto;
+        }
+        .sidebar a {
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: block;
+        }
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+        .sidebar i {
+            margin-right: 10px;
+        }
+        .content {
+            margin-left: 250px;
+            margin-top: 50px; /* Space for the navbar */
+            padding: 20px;
+        }
+        .content div {
+           
+        }
+        .dashboard-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px; /* Space between the divs */
+        }
+        .dashboard-box {
+            height: 100px;
+            width: calc(33.333% - 10px); /* Adjust width for 3 columns with spacing */
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+        }
+
+
+
+.btnedit{
+border: none;
+width: 100%;
+background-color: green;
+color: white;
+transition: 0.1s;
+}
+.btnedit:hover{
+    transform: scale(1.1);
+}
+        body {
+    font-family: Arial, sans-serif;
+}
+
+#popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    height: 370px;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+ table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        .a {
+            padding: 5px 10px;
+            text-decoration: none;
+            background-color: dodgerblue;
+            color: white;
+            border: 1px solid #ccc;
+            margin-right: 5px;
+        }
+        a:hover {
+            background-color: #ddd;
+        }
